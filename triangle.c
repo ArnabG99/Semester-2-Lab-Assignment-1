@@ -4,7 +4,7 @@ int main()
     double a,b,c;
     printf("Enter 3 sides of a triangle: \n");
     scanf("%lf %lf %lf",&a,&b,&c);
-    if(a>0 && b>0 && c>0)
+    if((a+b)>c && (b+c)>a && (c+a)>b)
     {
         if(a==b && b==c)
         {
